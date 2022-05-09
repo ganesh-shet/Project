@@ -89,7 +89,6 @@ else:
     status = "UnFilled"
 # dt = datetime.now()
     unfilled.add({'Status': status, 'TimeStamp': dt})
-    unfilled.add({'Status': status, 'TimeStamp': dt})
 cv2.imshow("FINAL OUTPUT", cover_clone)
 cv2.waitKey(0)
 
